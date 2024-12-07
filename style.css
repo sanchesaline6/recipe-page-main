@@ -26,6 +26,7 @@
     font-family: "Outfit";
     src: url(./assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
 }
+
 body{
     background-color: var(--eggshell);
     display: flex;
@@ -90,6 +91,7 @@ main .preparation ul{
 .label-item{
     color: var(--wenge-brown);
     font-weight: 700;
+    padding-left: 1rem;
 }
 
 .value-item{
@@ -109,6 +111,10 @@ main .ingredients {
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+}
+
+main .ingredients .value-item {
+    padding-left: 1rem;
 }
 
 main .ingredients ul{
